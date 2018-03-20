@@ -1,0 +1,54 @@
+# Exclude class files #
+*.class
+
+# Package Files #
+build/*.jar
+bin/*.jar
+*/target/**
+target/**
+*.war
+*.ear
+*.log
+
+## not used maven or something like that. use pure eclipse project ##
+#.project
+#.settings
+#.classpath
+bin/
+
+# netbeans ignore personal stuff #
+nbproject/private/
+build/
+#dist/
+
+# idea ignore #
+.idea/**
+
+## svn
+.svn
+
+# eclipse workspace #
+.metadata
+.classpath
+.project
+.settings
+
+# spring #
+.springBeans
+
+# generic files to ignore #
+*~
+*.lock
+*.DS_Store
+*.DS_Store?
+*.swp
+*.out
+*.iml
+
+# Configuration files
+##config.xml
+##log4j.xml
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/target/
